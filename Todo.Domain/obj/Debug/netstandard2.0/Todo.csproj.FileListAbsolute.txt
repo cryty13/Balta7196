@@ -1,0 +1,8 @@
+/Users/willianbuqui/Documents/Todo/Todo.Domain/bin/Debug/netstandard2.0/Todo.deps.json
+/Users/willianbuqui/Documents/Todo/Todo.Domain/bin/Debug/netstandard2.0/Todo.dll
+/Users/willianbuqui/Documents/Todo/Todo.Domain/bin/Debug/netstandard2.0/Todo.pdb
+/Users/willianbuqui/Documents/Todo/Todo.Domain/obj/Debug/netstandard2.0/Todo.csprojAssemblyReference.cache
+/Users/willianbuqui/Documents/Todo/Todo.Domain/obj/Debug/netstandard2.0/Todo.AssemblyInfoInputs.cache
+/Users/willianbuqui/Documents/Todo/Todo.Domain/obj/Debug/netstandard2.0/Todo.AssemblyInfo.cs
+/Users/willianbuqui/Documents/Todo/Todo.Domain/obj/Debug/netstandard2.0/Todo.dll
+/Users/willianbuqui/Documents/Todo/Todo.Domain/obj/Debug/netstandard2.0/Todo.pdb

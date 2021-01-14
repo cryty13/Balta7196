@@ -1,0 +1,11 @@
+/Users/willianbuqui/Documents/Todo/Todo.Domain.Infra/bin/Debug/netstandard2.0/Todo.Domain.Infra.deps.json
+/Users/willianbuqui/Documents/Todo/Todo.Domain.Infra/bin/Debug/netstandard2.0/Todo.Domain.Infra.dll
+/Users/willianbuqui/Documents/Todo/Todo.Domain.Infra/bin/Debug/netstandard2.0/Todo.Domain.Infra.pdb
+/Users/willianbuqui/Documents/Todo/Todo.Domain.Infra/obj/Debug/netstandard2.0/Todo.Domain.Infra.csprojAssemblyReference.cache
+/Users/willianbuqui/Documents/Todo/Todo.Domain.Infra/obj/Debug/netstandard2.0/Todo.Domain.Infra.AssemblyInfoInputs.cache
+/Users/willianbuqui/Documents/Todo/Todo.Domain.Infra/obj/Debug/netstandard2.0/Todo.Domain.Infra.AssemblyInfo.cs
+/Users/willianbuqui/Documents/Todo/Todo.Domain.Infra/obj/Debug/netstandard2.0/Todo.Domain.Infra.dll
+/Users/willianbuqui/Documents/Todo/Todo.Domain.Infra/obj/Debug/netstandard2.0/Todo.Domain.Infra.pdb
+/Users/willianbuqui/Documents/Todo/Todo.Domain.Infra/bin/Debug/netstandard2.0/Todo.dll
+/Users/willianbuqui/Documents/Todo/Todo.Domain.Infra/bin/Debug/netstandard2.0/Todo.pdb
+/Users/willianbuqui/Documents/Todo/Todo.Domain.Infra/obj/Debug/netstandard2.0/Todo.Domain.Infra.csproj.CopyComplete

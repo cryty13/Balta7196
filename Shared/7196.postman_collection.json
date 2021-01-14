@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "4438f200-43dc-4ad6-86b3-70f0aaf4eb71",
+		"name": "7196",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:5001/v1/todos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjVmOTcxMmEwODczMTcyMGQ2NmZkNGEyYTU5MmU0ZGZjMmI1ZGU1OTUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiV2lsbGlhbiBCdXF1aSIsInBpY3R1cmUiOiJodHRwczovL2xoNS5nb29nbGV1c2VyY29udGVudC5jb20vLUNNMTRiSE5PT2pFL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FNWnV1Y2xvdkNTOTJXNVVJdGRzWEs1VWl6T3gwc2NRd3cvczk2LWMvcGhvdG8uanBnIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL3Byb2plY3QtMzE2NTEzNDY0MTEzMzA0NDEyMSIsImF1ZCI6InByb2plY3QtMzE2NTEzNDY0MTEzMzA0NDEyMSIsImF1dGhfdGltZSI6MTYxMDY0OTE0NywidXNlcl9pZCI6IjMxZXZpTmE2cDBmMGtRTk5QN3NUSWxvWk5YajEiLCJzdWIiOiIzMWV2aU5hNnAwZjBrUU5OUDdzVElsb1pOWGoxIiwiaWF0IjoxNjEwNjQ5MTQ3LCJleHAiOjE2MTA2NTI3NDcsImVtYWlsIjoid2lsbGlhbi5idXF1aUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTkyMDIyMjE0ODU2NjQ4OTI5NCJdLCJlbWFpbCI6WyJ3aWxsaWFuLmJ1cXVpQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.eHGCJBGi7zRungY_gdKWuF7wR7X7nmJ1lAFaZl-zhPO-o6uLSGtO4FUbm7uk1kSyjGF_Z81orBGPc35pmb4Y2pCjtlQlaxIqihPap8c4pdxggfRT-QLGcdfhak88-MLJjOBt5FJApC60qNTKQ7krQrjysdSeW2RtCSzu7jY0IoOSUPda9gjoyCPvD93AL2A8iDqkFrTkqjYn5tzVaQkXLWeeMRLTEoPPb-Sl5hLGPD8sc5UbtYwdKyIjZRiJ1nvzggDZ3rrq2ifqocA38JSiAEa2syfolUm7szvnNSGgCzpFwwZuheYKvStswS7RHl-Kf4pXPlFiGCKs9GOqzeBXFQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"testeando\",\n    \"date\":\"2020-01-27\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/v1/todos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"v1",
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/v1/todos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjVmOTcxMmEwODczMTcyMGQ2NmZkNGEyYTU5MmU0ZGZjMmI1ZGU1OTUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiV2lsbGlhbiBCdXF1aSIsInBpY3R1cmUiOiJodHRwczovL2xoNS5nb29nbGV1c2VyY29udGVudC5jb20vLUNNMTRiSE5PT2pFL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FNWnV1Y2xvdkNTOTJXNVVJdGRzWEs1VWl6T3gwc2NRd3cvczk2LWMvcGhvdG8uanBnIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL3Byb2plY3QtMzE2NTEzNDY0MTEzMzA0NDEyMSIsImF1ZCI6InByb2plY3QtMzE2NTEzNDY0MTEzMzA0NDEyMSIsImF1dGhfdGltZSI6MTYxMDY0OTE0NywidXNlcl9pZCI6IjMxZXZpTmE2cDBmMGtRTk5QN3NUSWxvWk5YajEiLCJzdWIiOiIzMWV2aU5hNnAwZjBrUU5OUDdzVElsb1pOWGoxIiwiaWF0IjoxNjEwNjQ5MTQ3LCJleHAiOjE2MTA2NTI3NDcsImVtYWlsIjoid2lsbGlhbi5idXF1aUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTkyMDIyMjE0ODU2NjQ4OTI5NCJdLCJlbWFpbCI6WyJ3aWxsaWFuLmJ1cXVpQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.eHGCJBGi7zRungY_gdKWuF7wR7X7nmJ1lAFaZl-zhPO-o6uLSGtO4FUbm7uk1kSyjGF_Z81orBGPc35pmb4Y2pCjtlQlaxIqihPap8c4pdxggfRT-QLGcdfhak88-MLJjOBt5FJApC60qNTKQ7krQrjysdSeW2RtCSzu7jY0IoOSUPda9gjoyCPvD93AL2A8iDqkFrTkqjYn5tzVaQkXLWeeMRLTEoPPb-Sl5hLGPD8sc5UbtYwdKyIjZRiJ1nvzggDZ3rrq2ifqocA38JSiAEa2syfolUm7szvnNSGgCzpFwwZuheYKvStswS7RHl-Kf4pXPlFiGCKs9GOqzeBXFQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:5001/v1/todos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"v1",
+						"todos"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
